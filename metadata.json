@@ -1,0 +1,8 @@
+{
+  "name": "Supersonic bot",
+  "description": "A high-octane voice-controlled infinite runner where your volume controls your jetpack thrust.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

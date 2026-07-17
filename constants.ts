@@ -1,0 +1,68 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+*/
+
+export const COLORS = {
+  PRIMARY: "#A83C7B", // Deep Pink
+  SECONDARY: "#FDCFE8", // Lightest Pink
+  ACCENT: "#000", // Solid Black Cave Walls
+  TRAIL: "rgba(253, 207, 232, 0.3)",
+  ANDROID_GREEN: "#34A853",
+  CAPE_RED: "#BC55A2", // Medium Pink
+  SHIELD_BLUE: "#00D2FF",
+  BOOST_WHITE: "#FFFFFF",
+  OBSTACLE_COLOR: "#9BA0A6",
+  // New Palette shades
+  PINK_100: "#FDCFE8",
+  PINK_200: "#FF8BCB",
+  PINK_300: "#BC55A2",
+  PINK_400: "#A83C7B",
+  PINK_500: "#6A1247",
+  PINK_600: "#3A0728",
+  // Background Gradient
+  BG_TOP: "#2A2A2A",
+  BG_BOTTOM: "#2A2A2A"
+};
+
+export const GAME_CONFIG = {
+  MIN_GAME_WIDTH: 1000,
+  MIN_GAME_HEIGHT: 800,
+  LANE_WIDTH: 200,
+  PLAYER_X_OFFSET: 100,
+  PLAYER_SIZE: 60,
+  OBSTACLE_WIDTH: 40,
+  MIN_OBSTACLE_HEIGHT: 80,
+  MAX_OBSTACLE_HEIGHT: 190,
+  SPAWN_RATE: 1800,
+  BASE_SPEED: 4.5,
+  SPEED_INCREMENT: 0.0001,
+  VOLUME_THRESHOLD: 0.002,
+  VOLUME_SENSITIVITY: 0.08,
+  MIN_PITCH: 100,
+  MAX_PITCH: 800,
+  POWERUP_SIZE: 70,
+  POWERUP_SPAWN_RATE: 2400, // Spawn a powerup every 2400 pixels
+  FLOOR_SPIKE_SPAWN_RATE: 800, // Spawn a floor spike every 800 pixels
+  POWERUP_DURATION: 5000,
+  GRAVITY: 0.21,
+  THRUST: 0.9,
+  TERMINAL_VELOCITY: 12,
+  DRAG: 0.99,
+  BOUNDARY_HEIGHT: 40,
+  // Cave Config
+  CAVE_SEGMENT_WIDTH: 150,
+  CAVE_INITIAL_HEIGHT: 600,
+  CAVE_MIN_HEIGHT: 300,
+  CAVE_HEIGHT_REDUCTION_RATE: 50,
+  CAVE_STIFFNESS: 0.6,
+  CAVE_WANDER_SPEED: 50,
+  // Rotating Bar Config
+  ROTATING_BAR_MIN_SPEED: 0,
+  ROTATING_BAR_MAX_SPEED: 0.075,
+
+  SCORE_MULTIPLIER: 0.25, // Each pixel is worth 0.25 points
+
+  DEV_ENABLED: false,
+  DRAW_HITBOXES: false,
+};
